@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reels Blocker</string>
+    <string name="service_description">Closes Instagram Reels and YouTube Shorts by pressing Back when they open. Reads only view IDs, never text or messages.</string>
+</resources>

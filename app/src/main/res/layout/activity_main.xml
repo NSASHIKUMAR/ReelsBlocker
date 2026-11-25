@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <Switch
+        android:id="@+id/toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Block Reels and Shorts"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/pause15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause for 15 minutes" />
+
+    <Button
+        android:id="@+id/pause60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause for 1 hour" />
+
+    <Button
+        android:id="@+id/openAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Open Accessibility settings" />
+
+    <Button
+        android:id="@+id/openAppInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open App info (for Allow restricted settings)" />
+
+</LinearLayout>
